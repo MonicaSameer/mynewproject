@@ -1,0 +1,71 @@
+/*start general rules*/
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.main.color{
+    color: #4e4e4e;
+}
+.main-bg{
+    background-color: #007aff;
+}
+font{
+   font-family: 'Nunito Sans', sans-serif;;
+}
+h1,h2,h3,h4.h5,h6{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: var(--bs-font-sans-serif);
+}
+
+
+/*start header styling*/
+
+
+
+
+/*start section5 styling*/
+.section5 i{
+    text-align-last: right !important;
+}
+.section5 h4{
+    font-weight: 500;
+}
+.section5 img{
+    transition: transform  2s;
+}
+.section5 .item5 img:hover{
+    transform: scale(1.5);
+    width:25%;
+    overflow:hidden;
+}
+.section5 .parg{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 .parg:after{
+    content: "";
+   
+    background-color: #007aff;
+    position: absolute;
+    width: 3%;
+    height:4px;
+   
+    
+    margin-top: 50px;
+    
+    text-align: center;
+    
+}
+/*end section5 styling*/
